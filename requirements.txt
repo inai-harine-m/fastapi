@@ -1,3 +1,11 @@
+psycopg2==2.9.3
+psycopg2-binary==2.9.3
+PyGreSQL==5.2.4
+fastapi
+uvicorn
+gunicorn
+uvloop
+httptools
 anyio==3.6.1
 asttokens==2.0.5
 asyncpg==0.26.0
