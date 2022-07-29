@@ -5,7 +5,6 @@ from pydantic import BaseModel
 
 DATABASE_URL="postgres://nuugzohgahchur:1cbc61cff45d554b2aaacba4bdfc8dc5196fa7904b7d5d653065254fa4a05259@ec2-44-206-197-71.compute-1.amazonaws.com:5432/da277qjro88p00"
 
-
 database = databases.Database(DATABASE_URL)
 
 metadata = sqlalchemy.MetaData()
