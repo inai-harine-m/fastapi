@@ -8,7 +8,7 @@ DATABASE_URL="postgresql://postgres:Aathini@localhost/fastapi"
 database = databases.Database(DATABASE_URL)
 
 metadata = sqlalchemy.MetaData()
-a=1
+
 
 data = sqlalchemy.Table(
     "cars",
